@@ -27,6 +27,32 @@ body {
 .grid-container > div {
     text-align: center;
 }
+@media screen and (max-width: 700px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column; 
+    }
+    .womandancingpicture {
+        grid-area: 1/1/2/7;
+      margin-top: 30%;
+      width: 60%;
+    }
+    
+    .firsttext {
+       grid-area: 2/1/3/7;
+    }
+    .mandancingpicture {
+        margin-top: 30%;
+        width: 60%;
+    }
+    .tablehoraire {
+        width: 60%;
+        margin-top: 10%;
+    }
+    .evenement1 {
+       width: 80%;
+    }
+}
 /************************************************ Header/Navigation Bar ************************************************/
 nav {
 margin: 0%;
@@ -369,7 +395,7 @@ th, td {
     margin-top: 30%;
 }
 .postersize {
-    height: 50%;
+    width: 80%;
 }
 .evenement2 {
     grid-area: 1/2/2/3;
@@ -377,7 +403,7 @@ th, td {
 }
 .evenement3 {
     grid-area: 1/3/2/4;
-    margin-top: 27%;
+    margin-top: 50%;
 }
 /************************************************ Contact ************************************************/
 .contact {
